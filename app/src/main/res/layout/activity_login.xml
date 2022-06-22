@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/img"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:src="@drawable/img_3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Username"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:background="@drawable/ok"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:src="@drawable/img_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Email Address"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <Button
+        android:layout_width="355dp"
+        android:layout_height="51dp"
+        android:background="@drawable/ok"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:src="@drawable/img_2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Password"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <Button
+        android:layout_width="355dp"
+        android:layout_height="53dp"
+        android:background="@drawable/ok"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:src="@drawable/img_2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Confirm Password"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <Button
+        android:layout_width="353dp"
+        android:layout_height="54dp"
+        android:background="@drawable/ok"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <Button
+        android:id="@+id/btn_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/solid_pink"
+        android:text="SIgn Up with Google"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <Button
+        android:id="@+id/btn_actionnxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/solid_purple"
+        android:text="Sing Up"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="600dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login1">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroolview"
+        android:layout_width="209dp"
+        android:layout_height="127dp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="43dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/loogin"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="64dp" />
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="128dp"
+        android:layout_height="31dp"
+        tools:ignore="MissingConstraints,Orientation"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="233dp">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="27dp"
+            android:src="@drawable/ic_image"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="374dp" />
+
+        <TextView
+            android:layout_width="107dp"
+            android:layout_height="22dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Add Avatar"
+            android:textSize="16dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="374dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Create Your Pet Profile"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <ImageView
+        android:layout_width="138dp"
+        android:layout_height="121dp"
+        android:src="@drawable/addlgn"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Select Your Pet Type"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/kiri"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <ImageView
+        android:layout_width="199dp"
+        android:layout_height="120dp"
+        android:src="@drawable/kanan"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:src="@drawable/ic_pets"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="126dp"
+        android:src="@drawable/cat"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="126dp"
+        android:src="@drawable/dog"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:src="@drawable/img_3"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="586dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="61dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Name"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <Button
+        android:layout_width="342dp"
+        android:layout_height="54dp"
+        android:background="@drawable/ok"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:src="@drawable/img_5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <TextView
+        android:layout_width="61dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Sex"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <Button
+        android:layout_width="342dp"
+        android:layout_height="54dp"
+        android:background="@drawable/ok"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="704dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
